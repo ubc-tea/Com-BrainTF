@@ -1,0 +1,17 @@
+defaults:
+  - dataset: ABIDE
+  - model: comtf
+  - optimizer: adam
+  - training: basic_training
+  - datasz: 100p
+  - preprocess: non_mixup
+
+repeat_time: 1
+log_path: result
+save_learnable_graph: False
+save_attn_weights: True
+save_test_attn_weights: False
+
+# wandb
+wandb_entity: ComBrainTF
+project: Com-BrainTF

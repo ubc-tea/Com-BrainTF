@@ -1,0 +1,10 @@
+name: ComBrainTF
+sizes: [360, 8]  # Note: The input node size should not be included here
+pooling: [false,true]
+pos_encoding: none  # identity, none
+orthogonal: true
+freeze_center: true
+project_assignment: true
+pos_embed_dim: 360
+nhead: 8
+num_MHSA: 1

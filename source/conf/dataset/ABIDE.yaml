@@ -1,0 +1,9 @@
+name: abide
+batch_size: 64
+test_batch_size: 64
+val_batch_size: 64
+train_set: 0.7
+val_set: 0.1
+path: abide.npy
+stratified: True
+drop_last: True
